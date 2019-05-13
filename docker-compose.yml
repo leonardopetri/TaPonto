@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  tapontowebmvc:
+    image: tapontowebmvc
+    build:
+      context: .
+      dockerfile: src/Taponto.WebMvc/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5000:80"
