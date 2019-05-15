@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  taponto.webmvc:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
+      - ASPNETCORE_URLS=http://0.0.0.0:80
+    ports:
+      - "5000:80"

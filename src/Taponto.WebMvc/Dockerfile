@@ -6,14 +6,16 @@
 # docker build --pull -t taponto.webmvc -f src/Taponto.WebMvc/Dockerfile .
 #
 # RUN COMMAND
-# docker run --name taponto.webmvc --rm -it -p 5107:5107 taponto.webmvc
+# docker run --name taponto.webmvc --rm -it -p 5000:5000 taponto.webmvc
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
 WORKDIR /app
 
 # copy csproj and restore as distinct layers
-COPY *.sln .
-COPY . .
+COPY Taponto-WebMvc.sln .
+COPY src/Taponto.Domain/Taponto.Domain.csproj src/Taponto.Domain/
+COPY src/Taponto.WebMvc/Taponto.WebMvc.csproj src/Taponto.WebMvc/
 RUN dotnet restore
+COPY . .
 
 # copy everything else and build app
 WORKDIR /app/src/Taponto.WebMvc
