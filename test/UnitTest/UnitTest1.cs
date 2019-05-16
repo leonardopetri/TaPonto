@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace Taponto.Test
+namespace UnitTest
 {
     public class UnitTest1
     {
