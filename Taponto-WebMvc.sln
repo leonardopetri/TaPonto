@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B6806242-E20A-4D7F-89C8-18F8655A1574}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taponto.Domain", "src\Taponto.Domain\Taponto.Domain.csproj", "{3AC2E672-2EFA-472C-91DD-050D357D5FA9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taponto.WebMvc", "src\Taponto.WebMvc\Taponto.WebMvc.csproj", "{16FCB824-E3F5-4F1D-9007-0DCDBB587BB0}"
 EndProject
 Global
@@ -22,18 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3AC2E672-2EFA-472C-91DD-050D357D5FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AC2E672-2EFA-472C-91DD-050D357D5FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3AC2E672-2EFA-472C-91DD-050D357D5FA9}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{3AC2E672-2EFA-472C-91DD-050D357D5FA9}.Debug|x64.Build.0 = Debug|Any CPU
-		{3AC2E672-2EFA-472C-91DD-050D357D5FA9}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{3AC2E672-2EFA-472C-91DD-050D357D5FA9}.Debug|x86.Build.0 = Debug|Any CPU
-		{3AC2E672-2EFA-472C-91DD-050D357D5FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3AC2E672-2EFA-472C-91DD-050D357D5FA9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3AC2E672-2EFA-472C-91DD-050D357D5FA9}.Release|x64.ActiveCfg = Release|Any CPU
-		{3AC2E672-2EFA-472C-91DD-050D357D5FA9}.Release|x64.Build.0 = Release|Any CPU
-		{3AC2E672-2EFA-472C-91DD-050D357D5FA9}.Release|x86.ActiveCfg = Release|Any CPU
-		{3AC2E672-2EFA-472C-91DD-050D357D5FA9}.Release|x86.Build.0 = Release|Any CPU
 		{16FCB824-E3F5-4F1D-9007-0DCDBB587BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{16FCB824-E3F5-4F1D-9007-0DCDBB587BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16FCB824-E3F5-4F1D-9007-0DCDBB587BB0}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -48,7 +34,6 @@ Global
 		{16FCB824-E3F5-4F1D-9007-0DCDBB587BB0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{3AC2E672-2EFA-472C-91DD-050D357D5FA9} = {B6806242-E20A-4D7F-89C8-18F8655A1574}
 		{16FCB824-E3F5-4F1D-9007-0DCDBB587BB0} = {B6806242-E20A-4D7F-89C8-18F8655A1574}
 	EndGlobalSection
 EndGlobal
