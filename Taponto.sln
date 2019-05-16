@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taponto.WebMvc", "src\Tapon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taponto.Domain", "src\Taponto.Domain\Taponto.Domain.csproj", "{D75A9960-C6C6-4AF7-98CA-FC0FCB1DCA4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{D81F99E1-EC20-4846-A3B4-B3522BADA05C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "test\UnitTest\UnitTest.csproj", "{D81F99E1-EC20-4846-A3B4-B3522BADA05C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D83C1840-7519-11E9-8DA1-2BC3D854016D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D83C1840-7519-11E9-8DA1-2BC3D854016D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1374C510-751A-11E9-8DA1-2BC3D854016D}"
 EndProject
